@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const CLIENT_ID = "YOUR_SPOTIFY_CLIENT_ID";
+const CLIENT_ID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const REDIRECT_URI = "https://harmoniq.vercel.app";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
